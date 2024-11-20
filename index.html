@@ -136,7 +136,15 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Recent advances in machine learning have greatly benefited object detection and 6D pose estimation. 
+            However, textureless and metallic objects still pose a significant challenge due to few visual cues and the texture bias of CNNs. 
+            To address this issue, we propose a strategy for inducing a shape bias to CNN training.
+            In particular, by randomizing textures applied to object surfaces during data rendering, we create training data without consistent textural cues.  
+            This methodology allows for seamless integration into existing data rendering engines, and results in negligible computational overhead for data rendering and network training.
+            Our findings demonstrate that the shape bias we induce via randomized texturing, improves over existing approaches using style transfer.
+            We evaluate with five detectors and two pose estimators.
+            For three object detectors and for pose estimation in general, estimation accuracy improves for textureless and metallic objects.
+            Additionally we show that our approach increases the pose estimation accuracy in the presence of image noise and strong illumination changes.
           </p>
         </div>
       </div>
