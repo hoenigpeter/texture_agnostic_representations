@@ -114,11 +114,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .carousel .item {
   display: flex;
   justify-content: center;
+  flex: 0 0 100%;
 }
 
 .carousel .item img {
