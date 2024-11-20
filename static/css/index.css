@@ -110,20 +110,20 @@ body {
 .publication-body img {
 }
 
-.results-carousel {
-  overflow: hidden;
+.carousel {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.results-carousel .item {
-  margin: 5px;
-  overflow: hidden;
-  padding: 20px;
-  font-size: 0;
+.carousel .item {
   display: flex;
   justify-content: center;
+}
+
+.carousel .item img {
+  max-width: 100%;
+  height: auto;
 }
 
 .results-carousel video {
